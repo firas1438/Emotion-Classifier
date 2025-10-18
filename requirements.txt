@@ -1,0 +1,7 @@
+# python 3.11 or higher recommended
+pandas
+numpy
+matplotlib
+seaborn
+tensorflow
+scikit-learn
