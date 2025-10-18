@@ -7,17 +7,13 @@ This project is a **deep learning model** that can recognize human emotions from
 
 **Source:** [Sentiment and Emotion Analysis Dataset on Kaggle](https://www.kaggle.com/datasets/kushagra3204/sentiment-and-emotion-analysis-dataset)  
 
-Total samples: ~420,000  
-  - Joy: 143,067 samples  
-  - Sadness: 121,187 samples  
-  - Anger: 59,317 samples  
-  - Fear: 49,649 samples  
-  - Love: 34,554 samples  
-  - Surprise: 14,972 samples  
+Total samples: ~90,000  
+
+The dataset contains 6 classes: `joy`, `sadness`, `anger`, `fear`, `love`, `surprise`
 
 The dataset contains two columns:  
-- `sentence`: the text input  
-- `emotion`: the labeled emotion  
+  - `sentence`: the text input  
+  - `emotion`: the labeled emotion  
 
 
 ## Requirements
@@ -36,8 +32,8 @@ scikit-learn
 ```
 
 ## Results
-- Achieved ~94% validation accuracy on the test set.
-- Can predict the probability of each emotion (e.g., joy: 0.91, sadness: 0.02, etc...)
+- Achieved ~93% validation accuracy on the test set.
+- Can predict the probability of each emotion (e.g., joy: 0.91, surprise: 0.03, etc...)
 
 ## Contributing
 Contributions are welcome! If you find any mistakes or have suggestions for improvement, please contact me or open an issue
