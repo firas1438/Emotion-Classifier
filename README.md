@@ -7,14 +7,14 @@ This project is a **deep learning model** that can recognize human emotions from
 
 **Source:** [Sentiment and Emotion Analysis Dataset on Kaggle](https://www.kaggle.com/datasets/kushagra3204/sentiment-and-emotion-analysis-dataset)  
 
-Total samples: ~90,000  
-
-The dataset contains 6 classes: `joy`, `sadness`, `anger`, `fear`, `love`, `surprise`
-
 The dataset contains two columns:  
   - `sentence`: the text input  
-  - `emotion`: the labeled emotion  
+  - `emotion`: the labeled emotion 
 
+The emotion labels include the following 6 classes: 
+`😀 joy`, `😢 sadness`, `😡 anger`, `😱 fear`, `❤️ love`, `😲 surprise`
+
+Total samples: ~90,000  
 
 ## Requirements
 
